@@ -14,3 +14,11 @@ print("pagina actual en pantalla:", pagina_actual)
 pagina_cerrada = historial_navegacion.pop()
 print("saliendo de:", pagina_cerrada)
 print("historial despues de presionar 'Atras'", historial_navegacion)
+
+# OPERACION TAMAÑO (SIZE)
+total_paginas = len(historial_navegacion)
+print("paginas guardadas", total_paginas)
+
+# OPERACION VACIA (EMPTY)
+sin_paginas = len(historial_navegacion) == 0
+print("¿El historial esta vacio", sin_paginas)
